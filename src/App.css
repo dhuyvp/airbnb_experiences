@@ -1,38 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
 .App {
   text-align: center;
+  background: #ebebeb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 100vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+.App-border {
+  width: 550px; 
+  height: 853px;
+  /* height: 100vh; */
+  border-radius: 8.95px;
+  background: #FFF;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  overflow: scroll;
+  overflow: hidden;
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  width: 550px;
+  height: 70px;
+  flex-shrink: 0;
+  box-shadow: 0px 2px 0px rgba(105, 98, 98, 0.2);
+
+  fill: #ffffff;
+  filter: drop-shadow(0px 2.9825618267059326px 7.456404209136963px rgba(0, 0, 0, 0.10));
+}
+
+.Airbnb-header {
+  width: 82.02px;
+  height: 25.352px;
+  padding-left: 30px;
+  padding-top: 22px;
+
   display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.App-body {
+  width: 550px;
+  height: 783px;
+  flex-shrink: 0;
+
+  fill: #8f8282;
+}
+
+.Picture-frame {
+  /* width: 395.906px; */
+  /* height: 232px; */
+  flex-shrink: 0;
+  padding-top: 26px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Description {
+  text-align: left;
+  display: flex;
+  width: 347px;
   flex-direction: column;
+  flex-shrink: 0;
+  color: #000;
+  font-family: Poppins;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 110%;
+
+  margin-left: 36px;
+  margin-top: 32px;
+}
+
+.Detail {
+  text-align: left;
+  display: flex;
+  width: 320px;
+  height: 56px;
+  flex-direction: column;
+  flex-shrink: 0;
+
+  color: #222;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 110%;
+
+  margin-top: 16px;
+  margin-left: 36px;
+  margin-bottom: 49px;
+}
+
+.Images-border {
+  display: flex;
+  justify-content: left;
+  align-items: center;  
+
+  padding-top: 49px;
+  padding-left: 37px;
+}
+
+.Image {
+  display: flex;
+  justify-content: left;
+  /* align-items: center; */
+
+  /* width: 176px;
+  height: 235px; */
+
+  margin: 0 9px;
+}
+
+
+.Absolute-div {
+  width: 61px;
+  height: 20px;
+  flex-shrink: 0;
+  border-radius: 2px;
+  background: #FFF;
+
+  color: #222;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 10.24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 110%;
+
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
 }
 
-.App-link {
-  color: #61dafb;
+.Lesson-description {
+  display: flex;
+  text-align: left;
+  /* justify-content: center; */
+  flex-direction: column;
+
+  padding: 9px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Detail-lesson {
+  display: flex;
+  width: 175px;
+  height: 14px;
+  flex-direction: column;
+  flex-shrink: 0;
+
+  color: #222;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 110%;
+
+  margin-top: 8px;
+}
+
+.Price-lesson {
+  color: #222;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  line-height: 110%;
+
+  margin-top: 8px;
+}
+
+.Rate-lesson {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  height: 20px;
+}
+
+.Activities-all {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+
+  flex-direction: row;
+}
+
+.Activities-column {
+  display: flex;
+  /* justify-content: center;  */
+  align-items: center;
+
+  flex-direction: column;  
+}
+
+.Activity {
+  margin: 4px;
 }
